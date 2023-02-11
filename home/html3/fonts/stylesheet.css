@@ -1,11 +1,10 @@
 @font-face {
-    font-family: 'Zaychik';
-    src: url('Zaychik-Regular.svg');
-    src: url('Zaychik-Regular.ttf');
-    src: url('Zaychik-Regular\ \(convert.io\).eot');
-    src: url('Zaychik-Regular\ \(convert.io\).otf');
-    src: url('Zaychik-Regular\ \(convert.io\).woff');
-    src: url('Zaychik-Regular\ \(convert.io\).woff2');
-font-style: normal; 
-font-weight: normal; 
-}
+    font-family: 'Zaychik-Regular';
+    src: url(./Zaychik-Regular.eot);
+    src: url(./Zaychik-Regular.eot?#iefix) format('embedded-opentype'),
+         url(./Zaychik-Regular.otf) format('otf'),
+         url(./Zaychik-Regular.svg#Zaychik-Regular) format('svg'),
+         url(./Zaychik-Regular.ttf) format('truetype'),
+         url(./Zaychik-Regular.woff) format('woff'),
+         url(./Zaychik-Regular.woff2) format('woff2');
+        }
