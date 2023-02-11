@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Zaychik';
+    src: url('Zaychik-Regular.svg');
+    src: url('Zaychik-Regular.ttf');
+    src: url('Zaychik-Regular\ \(convert.io\).eot');
+    src: url('Zaychik-Regular\ \(convert.io\).otf');
+    src: url('Zaychik-Regular\ \(convert.io\).woff');
+    src: url('Zaychik-Regular\ \(convert.io\).woff2');
+font-style: normal; 
+font-weight: normal; 
+}
