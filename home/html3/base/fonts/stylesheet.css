@@ -7,5 +7,54 @@
          url(./Zaychik-Regular.ttf) format('truetype'),
          url(./Zaychik-Regular.woff) format('woff'),
          url(./Zaychik-Regular.woff2) format('woff2');
-  }
- 
+}
+@font-face {
+    font-family: 'Cormorant SC';
+    src: url('CormorantSC-Regular.eot');
+    src: url('CormorantSC-Regular.eot?#iefix') format('embedded-opentype'),
+        url('CormorantSC-Regular.woff2') format('woff2'),
+        url('CormorantSC-Regular.woff') format('woff'),
+        url('CormorantSC-Regular.ttf') format('truetype'),
+        url('CormorantSC-Regular.svg#CormorantSC-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Cormorant SC';
+    src: url('CormorantSC-Regular.eot');
+    src: url('CormorantSC-Regular.eot?#iefix') format('embedded-opentype'),
+        url('CormorantSC-Regular.woff2') format('woff2'),
+        url('CormorantSC-Regular.woff') format('woff'),
+        url('CormorantSC-Regular.ttf') format('truetype'),
+        url('CormorantSC-Regular.svg#CormorantSC-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comforter Brush';
+    src: url('ComforterBrush-Regular.eot');
+    src: url('ComforterBrush-Regular.eot?#iefix') format('embedded-opentype'),
+        url('ComforterBrush-Regular.woff2') format('woff2'),
+        url('ComforterBrush-Regular.woff') format('woff'),
+        url('ComforterBrush-Regular.ttf') format('truetype'),
+        url('ComforterBrush-Regular.svg#ComforterBrush-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comforter Brush';
+    src: url('ComforterBrush-Regular_1.eot');
+    src: url('ComforterBrush-Regular_1.eot?#iefix') format('embedded-opentype'),
+        url('ComforterBrush-Regular_1.woff2') format('woff2'),
+        url('ComforterBrush-Regular_1.woff') format('woff'),
+        url('ComforterBrush-Regular_1.ttf') format('truetype'),
+        url('ComforterBrush-Regular_1.svg#ComforterBrush-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
