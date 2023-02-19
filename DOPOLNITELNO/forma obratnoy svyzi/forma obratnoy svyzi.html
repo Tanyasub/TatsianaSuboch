@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Форма</title>
+  <style>
+  body {
+   background: #18326d;
+  }
+  form {
+   background: #2b417a;
+   padding: 20px;
+   margin: 20px;
+   border: 1px solid #44567e;
+   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  }
+  .row {
+   overflow: hidden;
+   margin-bottom: 1rem;
+  }
+  label {
+   color: #8dacfe;
+   width: 100px;
+   float: left;
+   text-align: right;
+   margin-right: 10px;
+  }  
+  input, textarea {
+   background: #182a50;
+   box-shadow: inset -2px -2px 2px #425575;
+   width: 300px;
+   border: none;
+   color: #fff;
+   padding: 5px;
+  }
+  textarea {
+   height: 100px;
+  }
+  button {
+   margin-left: 110px;
+   background: #0d1321;
+   border: none;
+   color: #6d82bb;
+   padding: 10px 20px;
+   font-weight: bold;
+   text-transform: uppercase;
+  }
+  </style>
+ </head>
+ <body>
+  <form>
+   <div class="row"><label>Имя</label><input name="first-name"></div>
+   <div class="row"><label>Фамилия</label><input name="last-name"></div>
+   <div class="row"><label>Email</label><input type="email" name="email"></div>
+   <div class="row"><label>Сообщение</label><textarea name="msg"></textarea></div>
+   <div><button>Отправить</button></div>
+  </form>
+ </body>
+</html>
