@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>maket_table</title>
     <style>
+       
         .topbuttom {
             background: rgb(124, 189, 255);
             color: blue;
@@ -25,13 +26,20 @@
         .menu {
             width: 150px;
             float: left;
-            background-color: rgb(246, 253, 111);
+        }
+        p {
+            overflow: hidden;
+        }
+        .main {
+            
+            background: white url('boll.png') right top repeat-y;
+            margin-left: 150px;
         }
     </style>
 </head>
 
 <body>
-    <div>
+    <div style="background-color: yellow;">
         <div class="topbuttom">привет участникам соревнований!</div>
 
         <div style="margin-top: -18px;">
@@ -50,7 +58,8 @@
                     <li> <a href="https://www.google.com/">Шашки</a></li>
                 </ul>
             </div>
-            <div style="background: url('boll.png') right top repeat-y">
+            
+            <div class="main">
                 <h3>Футбол</h3>
                 <p>
                     <img src="footboll.jpeg" width="250px" style="float: left; margin: 20px";>
