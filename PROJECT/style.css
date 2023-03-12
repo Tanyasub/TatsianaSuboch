@@ -262,7 +262,7 @@ h2.icon__right {
     content: "";
     width: 100%;
     height: 100%;
-    background: url("../img/fon_trap.png") center no-repeat;
+    background: url("fon_trap.png") center no-repeat;
     position: absolute;
     left: -30px;
     top: 50px;
@@ -272,7 +272,7 @@ h2.icon__right {
 }
 
 .teachers ul li:hover::before {
-    background: url("../img/fon_trap_hover.png") center no-repeat;
+    background: url("fon_trap_hover.png") center no-repeat;
     background-size: 100% 90%;
 }
 
