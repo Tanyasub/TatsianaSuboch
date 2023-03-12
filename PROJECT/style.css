@@ -135,9 +135,6 @@ h2.icon__center {
     color: #FFFFFF;
     margin-top: 30px;
 }
-
-
-
 .rotate_block {
     position: relative;
 }
@@ -227,9 +224,6 @@ h2.icon__center {
     background: url('program1.png') no-repeat center;
 }
 
-
-
-
 /* program__block college */
 
 .program__block.college p {
@@ -240,17 +234,19 @@ h2.icon__center {
     line-height: 140%;
     text-align: center;
 }
-.program_college ul{
+
+.program_college ul {
     display: flex;
     padding-top: 66px;
     justify-content: space-between;
 }
+
 .college1 {
     padding: 30px;
     padding-top: 300px;
     width: 826px;
     height: 560px;
-    background: url('college_left.png') no-repeat center;  
+    background: url('college_left.png') no-repeat center;
 }
 
 .college2 {
@@ -262,7 +258,6 @@ h2.icon__center {
 }
 
 /* teachers */
-.teachers {}
 
 .teachers ul {
     display: flex;
@@ -341,19 +336,17 @@ h2.icon__center {
     font-size: 18px;
     line-height: 120%;
     color: rgba(43, 44, 84, 0.7);
-
 }
-
 
 /* vybor */
 .vybor {
- background: url('fon2.png');
+    background: url('fon2.png');
     background: url('fonz.png') center no-repeat;
 }
 
 .vybor.container2 {
     margin-bottom: 40px;
-    
+
 }
 
 .vybor ul li {
@@ -376,12 +369,12 @@ h2.icon__center {
     display: flex;
     align-items: center;
     width: 1254px;
-height: 264px;
+    height: 264px;
 }
 
 
 .vybor li {
-   
+
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 20px;
