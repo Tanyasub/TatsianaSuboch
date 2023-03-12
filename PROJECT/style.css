@@ -66,7 +66,11 @@ h2.icon__right {
     padding-top: 15px;
     padding-bottom: 38px;
 }
-
+h2.icon__center {
+    background: url("h-left-icon.png") no-repeat 53% -1px;
+    padding-top: 15px;
+    padding-bottom: 38px;
+}
 
 .btn {
     display: flex;
@@ -310,9 +314,8 @@ h2.icon__right {
 /* besplatnoe */
 .besplatnoe {
     text-align: center;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 0);
+    display: flex;
+    justify-content: center;
 }
 
 .besplatnoe h3 {
@@ -338,4 +341,17 @@ h2.icon__right {
     line-height: 120%;
     color: rgba(43, 44, 84, 0.7);
     
+}
+
+
+/* vybor */
+.vybor {
+    padding-top: 120px;
+    background: url('fonz.png') center no-repeat;
+    
+}
+.vybor ul li {
+    background: url('zpod.png') center no-repeat;
+    display: flex;
+    align-items: center;
 }
