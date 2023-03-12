@@ -66,6 +66,7 @@ h2.icon__right {
     padding-top: 15px;
     padding-bottom: 38px;
 }
+
 h2.icon__center {
     background: url("h-left-icon.png") no-repeat 53% -1px;
     padding-top: 15px;
@@ -340,24 +341,35 @@ h2.icon__center {
     font-size: 18px;
     line-height: 120%;
     color: rgba(43, 44, 84, 0.7);
-    
+
 }
 
 
 /* vybor */
-.vybor{
+.vybor {
     display: flex;
-   
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
     background: url('fonz.png') center no-repeat;
- 
+
 }
+
 .vybor ul li {
-    padding-top: 120px;
-    background: url('zpod.png') center no-repeat;
-    
+    padding-top: 10px;
+    background: url('zpod.png') no-repeat;
+
 }
-.vybor .container {
-    
+
+.vybor p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: rgba(43, 44, 84, 0.7);
+
 }
 
 .vybor ul {
@@ -365,11 +377,21 @@ h2.icon__center {
     align-items: center;
 }
 
-.vybor ul li {
+.container2 {
+    width: 1254px;
+    height: 264px;
+
+
+}
+
+.vybor li {
     margin-right: 60px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 20px;
     line-height: 100%;
     letter-spacing: 0.02em;
+    width: 398px;
+    height: 214px;
+
 }
