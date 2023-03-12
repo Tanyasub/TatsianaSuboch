@@ -250,8 +250,9 @@ h2.icon__center {
     padding-top: 300px;
     width: 826px;
     height: 560px;
-    background: url('college_left.png') no-repeat center;
+    background: url('college_left.png') no-repeat center;  
 }
+
 .college2 {
     padding: 30px;
     padding-top: 300px;
