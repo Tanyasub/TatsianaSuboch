@@ -111,6 +111,28 @@ h2.icon__right {
     margin-top: 30px;
 }
 
+.btn_3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    gap: 10px;
+    width: 262px;
+    height: 60px;
+    background: #9981F5;
+    border: 1px solid #6743EF;
+    box-shadow: 0px 4px 0px #6743EF, 0px 4px 30px rgba(128, 98, 242, 0.6);
+    border-radius: 100px;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+
+
 .rotate_block {
     position: relative;
 }
@@ -234,10 +256,6 @@ h2.icon__right {
 }
 
 
-
-
-
-
 /* teachers */
 .teachers {}
 
@@ -287,4 +305,37 @@ h2.icon__right {
     color: rgba(43, 44, 84, 0.7);
     padding-top: 33px;
     box-shadow: 0px 30px 60px rgba(43, 44, 84, 0.1);
+}
+
+/* besplatnoe */
+.besplatnoe {
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.besplatnoe h3 {
+    padding-top: 120px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 120%;
+    text-align: center;
+    color: #0C1427;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.besplatnoe h6 {
+    padding-top: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    color: rgba(43, 44, 84, 0.7);
+    
 }
