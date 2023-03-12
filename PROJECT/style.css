@@ -345,13 +345,31 @@ h2.icon__center {
 
 
 /* vybor */
-.vybor {
-    padding-top: 120px;
+.vybor{
+    display: flex;
+   
     background: url('fonz.png') center no-repeat;
-    
+ 
 }
 .vybor ul li {
+    padding-top: 120px;
     background: url('zpod.png') center no-repeat;
+    
+}
+.vybor .container {
+    
+}
+
+.vybor ul {
     display: flex;
     align-items: center;
+}
+
+.vybor ul li {
+    margin-right: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0.02em;
 }
