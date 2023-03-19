@@ -27,10 +27,10 @@ a {
 }
 .information a::before {
     content: '';
-    background-image: url('extref.png');
+    background: url('extref.png') no-repeat;
     position: absolute;
     width: 15px;
     height: 15px;
-    margin-left: -20px;
+    margin-left: -15px;
 
 }
