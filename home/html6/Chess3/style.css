@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.birth a[name] {
+    color: green;
+}
+.chempion {
+    color: red;
+    font-weight: bold;
+}
+a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+.text {
+    color: blue;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+div img {
+    float: left;
+}
