@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.birth a {
+    color: green;
+}
+.chempion {
+    color: red;
+    font-weight: bold;
+}
+.information {
+    color: blue;
+    font-weight: bold;
+    padding-left: 25px;
+}
+.text {
+    color: blue;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+a {
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+.information a::before {
+    content: '';
+    background-image: url('extref.png');
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    margin-left: -20px;
+
+}
