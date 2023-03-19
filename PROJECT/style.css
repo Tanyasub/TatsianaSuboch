@@ -132,6 +132,7 @@ h2.icon__center {
     color: #FFFFFF;
     margin-top: 30px;
 }
+
 .rotate_block {
     position: relative;
 }
@@ -243,7 +244,7 @@ h2.icon__center {
     padding-top: 300px;
     width: 826px;
     height: 560px;
-    background: url('college_left.png') no-repeat center;
+    background: url('college_left.png') no-repeat center, url('college_right_cover.png') no-repeat center;
 }
 
 .college2 {
@@ -335,16 +336,15 @@ h2.icon__center {
     color: rgba(43, 44, 84, 0.7);
 }
 
+
+
 /* vybor */
 .vybor {
-    background: url('fon2.png');
-    background: url('fonz.png') center no-repeat;
+    background: url('fonz.png') center no-repeat, url('fon2.png') center no-repeat;
+    height: 1349px;
+    background-position-y: -1px;
 }
 
-.vybor.container2 {
-    margin-bottom: 40px;
-
-}
 
 .vybor ul li {
     padding-top: 10px;
@@ -364,7 +364,9 @@ h2.icon__center {
 
 .vybor ul {
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 300px;
     width: 1254px;
     height: 264px;
 }
@@ -378,6 +380,88 @@ h2.icon__center {
     line-height: 100%;
     letter-spacing: 0.02em;
     width: 398px;
-    height: 214px;
+}
+.container2 img:last-child {
+    float: right;
+    margin-top: 221px;
+    margin-right: 264px;
+}
 
+
+
+/* rewiew */
+
+.review {
+    width: 540px;
+    height: 261px;
+    background: #fff;
+    padding: 18px 20px 16px 30px;
+    color: rgba(43, 44, 84, 0.7);
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+}
+.otzyvy {
+    display: flex;
+    align-items: center;
+    
+}
+
+.review .title {
+    margin-bottom: 6px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.icon span {
+    margin-left: 16px;
+}
+
+.descr {
+    overflow-y: auto;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.ellipseM {
+    background: url('EllipseM.png') no-repeat;
+    height: 77px;
+}
+.ellipseM h3 {
+    margin-left: 20px;
+    padding-top: 20px;
+    font-size: 24px;
+    color: white;
+    float: left;  
+}
+.ellipseM p:first-child {
+    font-weight: bold;
+}
+.Melnikov {
+    margin-left: 90px;
+}
+
+/* width */
+.descr::-webkit-scrollbar {
+    width: 2px;
+}
+
+/* Track */
+.descr::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.descr::-webkit-scrollbar-thumb {
+    background:  #8062F2;
+}
+
+/* Handle on hover */
+.descr::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
