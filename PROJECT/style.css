@@ -343,6 +343,7 @@ h2.icon__center {
     background: url('fonz.png') center no-repeat, url('fon2.png') center no-repeat;
     height: 1349px;
     background-position-y: -1px;
+    padding-top: 12px;
 }
 
 
