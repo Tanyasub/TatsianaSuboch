@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Пример №1</title>
+</head>
+
+<body>
+    <p>
+        При изменении ширины окна браузер будет автоматически<br>
+        подбирать подходящий размер изображения.
+    </p>
+
+    <picture>
+       
+        <source srcset="3.jpg" media="(min-width: 701px) and (max-width: 1000px)">
+        <source srcset="2.jpg" media="(min-width: 1001px) and (max-width: 1300px)">
+        <img src="1.jpg" alt="flower">
+    </picture>
+
+</body>
+
+</html>

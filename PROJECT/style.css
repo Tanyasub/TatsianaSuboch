@@ -214,12 +214,31 @@ h2.icon__center {
     margin-top: 52px;
 }
 
-.program__block.pr4child_teen ul li {
+
+.kids1 {
     padding: 30px;
     padding-top: 300px;
     width: 541px;
     height: 609px;
     background: url('program1.png') no-repeat center;
+
+}
+
+.kids2 {
+    padding: 30px;
+    padding-top: 300px;
+    width: 541px;
+    height: 609px;
+    background: url('Kids_top.png'), url('Kids2.png') no-repeat center;
+
+}
+
+.kids3 {
+    padding: 30px;
+    padding-top: 300px;
+    width: 541px;
+    height: 609px;
+    background: url('Kids_top.png'), url('Kids3.png') no-repeat center;
 }
 
 /* program__block college */
@@ -244,7 +263,7 @@ h2.icon__center {
     padding-top: 300px;
     width: 826px;
     height: 560px;
-    background: url('college_left.png') no-repeat center, url('college_right_cover.png') no-repeat center;
+    background: url('college_right_cover.png') no-repeat center, url('college_left.png') no-repeat center;
 }
 
 .college2 {
@@ -252,7 +271,7 @@ h2.icon__center {
     padding-top: 300px;
     width: 826px;
     height: 560px;
-    background: url('college_right.png') no-repeat center;
+    background: url('college_right_cover.png') no-repeat center, url('college_right.png') no-repeat center;
 }
 
 /* teachers */
@@ -272,6 +291,7 @@ h2.icon__center {
 
 .teachers ul li img {
     width: 100%;
+    height: 420px;
 }
 
 .teachers ul li:before {
@@ -303,6 +323,11 @@ h2.icon__center {
     color: rgba(43, 44, 84, 0.7);
     padding-top: 33px;
     box-shadow: 0px 30px 60px rgba(43, 44, 84, 0.1);
+}
+
+.teachers.container img {
+    width: 50px;
+    height: 50px;
 }
 
 /* besplatnoe */
@@ -339,6 +364,7 @@ h2.icon__center {
 
 
 /* vybor */
+
 .vybor {
     background: url('fonz.png') center no-repeat, url('fon2.png') center no-repeat;
     height: 1349px;
@@ -382,15 +408,24 @@ h2.icon__center {
     letter-spacing: 0.02em;
     width: 398px;
 }
+
 .container2 img:last-child {
     float: right;
-    margin-top: 221px;
+    margin-top: 201px;
     margin-right: 264px;
 }
 
 
 
 /* rewiew */
+
+
+.otzyvy {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
 
 .review {
     width: 540px;
@@ -401,11 +436,7 @@ h2.icon__center {
     font-size: 14px;
     line-height: 140%;
     letter-spacing: 0.05em;
-}
-.otzyvy {
-    display: flex;
-    align-items: center;
-    
+    box-shadow: 5px 10px 18px gray;
 }
 
 .review .title {
@@ -433,19 +464,105 @@ h2.icon__center {
     background: url('EllipseM.png') no-repeat;
     height: 77px;
 }
+
 .ellipseM h3 {
     margin-left: 20px;
     padding-top: 20px;
     font-size: 24px;
     color: white;
-    float: left;  
+    float: left;
 }
+
 .ellipseM p:first-child {
     font-weight: bold;
 }
+
 .Melnikov {
     margin-left: 90px;
 }
+
+.Otzyv3 {
+    float: left;
+}
+
+.Otzyv3 h3 {
+    font-weight: bolder;
+}
+
+.Otzyv3_text {
+    clear: both;
+}
+
+.otzyv_star {
+    text-align: right;
+}
+
+/* listalka */
+
+.listalka {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* bottom */
+.bottom {
+    background: url('logo.png') 23% 16% no-repeat, url('bottom_white.png') 22% top no-repeat, url('Bottom_background.png') center no-repeat;
+    height:639px;
+    margin-top: 142px;
+}
+
+.icons {
+    margin-top: 77px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50%;
+    gap: 20px;
+    margin-right: 4%;
+}
+
+.bottom1234 {
+    display: flex;
+    justify-content: space-around;
+    line-height: 1.5;
+}
+
+.bottom_block1 {
+    margin-top: 55px;
+    color: #F6F4FE;
+    width: 428px;
+    height: 125px;
+}
+
+.bottom_block2 {
+    margin-top: 55px;
+    color: #F6F4FE;
+    width: 230px;
+    height: 225px;
+    line-height: 1.8;
+}
+
+.bottom_block3 {
+    margin-top: 55px;
+    color: #F6F4FE;
+    width: 230px;
+    height: 225px;
+    line-height: 1.8;
+}
+
+.bottom_block4 {
+    margin-top: 55px;
+    color: #F6F4FE;
+    width: 334px;
+    height: 272px;
+    line-height: 1.8;
+}
+
+
+
+
+
 
 /* width */
 .descr::-webkit-scrollbar {
@@ -459,7 +576,7 @@ h2.icon__center {
 
 /* Handle */
 .descr::-webkit-scrollbar-thumb {
-    background:  #8062F2;
+    background: #8062F2;
 }
 
 /* Handle on hover */
