@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form {
+    background: #fff;
+    width: 300px;
+    margin: auto;
+    padding: 30px 50px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+   }
+    span {
+       font-weight: bold;
+       padding-right: 20px;
+    }
+    h2 {
+        text-align: center;
+    }
+    
+
+</style>
+<body>
+    <form method="get" action="http://fe.it-academy.by/TestForm.php">
+    <h2>Registration form</h2>
+  <span>Full name </span> <input type="text" name="FullName" placeholder="Full name"><br><br>
+  <span>Email</span> <input type="text" name="Email" placeholder="Email"><br><br>
+  <span>password</span> <input type="Password" name="Password" placeholder="Password"><br><br>
+  <span>Date of birth</span> <input type="date" name="Date" placeholder="Date of birth"><br><br>
+  <span>Country</span><select name="Country">
+    <option value="1">Belarus</option>
+    <option value="2">Russia</option>
+  </select>
+  <br><br>
+  <span>Gender</span>
+    <input type="radio" name="answer" value="1">Femail
+    <input type="radio" name="answer" value="2" checked>Mail
+    <input type="radio" name="answer" value="2" checked>Unknown
+
+    </form>
+</body>
+</html>

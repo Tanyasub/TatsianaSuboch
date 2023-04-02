@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    label {
+            user-select: none;
+            position: relative;
+        }
+    input[type="checkbox"] {
+        display: none;
+    }
+    label::before {
+        position: absolute;
+        content:'' ;
+        width: 50px;
+        height: 50px;
+        background-image: url(Green.jpeg);
+        background-size: 50px;
+    }
+    input:checked+label::before {
+        content: '';
+        background-image: url(images\ \(1\).png);
+        background-size: 50px;
+}
+
+    
+
+</style>
+<body>
+
+    <form action="http://fe.it-academy.by/TestForm.php" method="get">
+
+        <input type="checkbox" name="help" id="test">
+        <label for="test"></label>
+    </form>
+
+</body>
+
+</html>
