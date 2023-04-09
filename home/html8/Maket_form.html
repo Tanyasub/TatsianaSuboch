@@ -6,13 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        form {
-            background: #fff;
-            width: 50%;
-            margin: auto;
-            padding-left: 30%;
-            padding-right: 30%;
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        .ll {
+            margin-left: 142px;
+            margin-top: -36px;
+        }
+
+        .ooo {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        label+p {
+            float: left;
+        }
+
+        textarea {
+            width: 100%;
+            margin-right: 20px;
+        }
+
+        @media all and (max-width: 700px) {
+            label+p {
+                float: none;
+            }
+
+            .ll {
+                margin-top: 0px;
+                margin-left: 0px;
+            }
+
+            select {
+                display: block;
+            }
+            span{
+                display: block;
+            }
+
+
         }
     </style>
 </head>
@@ -20,20 +50,30 @@
 <body>
     <form method="get" action="http://fe.it-academy.by/TestForm.php">
         <p>Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p>
-        <p>Название статьи:<input type="text"></p>
-        Рубрика:<br>
-        <select name="kind">
-            <option value="1">Программирование</option>
-            <option value="2">Плавание</option>
-            <option value="3">Теннис</option>
-        </select>
+        <label>
+            <p>Название статьи:</p>
+            <div class="ll"><input type="text" name="nazvanie" class="ooo"></div>
+        </label>
+
+
+        <br>
+        <div>Рубрика:
+            <select>
+                <option value="1">Программирование</option>
+                <option value="2">Плавание</option>
+                <option value="3">Теннис</option>
+            </select>
+        </div>
         <p>Публикация:</p>
-        <input type="radio" name="answer" value="1">На сайте
-        <input type="radio" name="answer" value="2">В журнале
-        <input type="radio" name="answer" value="3">Нам сайте и в журнале<br><br>
+    
+            <span><input type="radio" name="answer" value="1">На сайте</span>
+            <span><input type="radio" name="answer" value="2">В журнале</span>
+            <span><input type="radio" name="answer" value="3">Нам сайте и в журнале</span>
+    
+        <br><br>
         Разрешить комментарии:<input type="checkbox" name="Comments" checked><br>
         Текст статьи:<br>
-        <textarea name="text" cols="30" rows="5"></textarea> <br>
+        <textarea name="text" rows="5"></textarea> <br>
         <input type="submit" value="Отправить">
 
     </form>
