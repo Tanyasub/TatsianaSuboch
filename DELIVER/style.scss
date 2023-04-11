@@ -18,8 +18,17 @@ h2 {
     line-height: 72px;
     letter-spacing: 0em;
     text-align: left;
-
 }
+
+h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 66px;
+    color: #121212;
+}
+
 
 h5 {
     font-size: 12px;
@@ -166,5 +175,24 @@ header ul li {
         height: 1px;
         left: 6.5%;
         top: 602px;
+    }
+}
+
+.BIG {
+    ul {
+        display: flex;
+        width: 1222px;
+        height: 56px;
+        margin: auto;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        position: absolute;
+        height: 67px;
+        left: 7%;
+        top: 639px;
+        gap: 57px;
+        span {
+            color:#FF5634
+        }
     }
 }
