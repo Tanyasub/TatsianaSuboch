@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprites</title>
+    <style>
+        .container {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .bird {
+            background: url(Bird.png) 0px 0px;
+            width: 500px;
+            height: 460px;
+            animation: play 2.5s steps(8) infinite,
+            step 10s linear infinite;
+            position: absolute;
+            left: 0;
+        }
+
+        @keyframes play {
+            100% {
+                background-position: -4046px;
+        } 
+    }
+        @keyframes step {
+            100% {
+                left: 100%;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="bird">
+        </div>
+    </div>
+
+</body>
+
+</html>
