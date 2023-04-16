@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grow {
+            width: 300px;
+            height: 200px;
+            background-color: rgb(95, 95, 95);
+            margin: auto;
+            text-align: center;
+            line-height: 170px;
+            color: white;
+            font-size: 30px;
+            transition: all 0.3s ease;
+        }
+
+        .grow:hover {
+            transform: scale(1.5);
+        }
+
+        .circle {
+            text-align: center;
+            fill: rgb(95, 95, 95);
+        }
+
+        .circle:hover {
+            text-align: center;
+            transition: all 0.3s ease;
+            fill: goldenrod;
+        }
+
+        .text {
+            font-size: 30px;
+            fill: white;
+            text-transform: uppercase;
+        }
+
+        .spinner {
+            margin: auto;
+            width: 100px;
+            height: 100px;
+            border: 8px solid #fcd779;
+            border-top: 4px solid white;
+            border-radius: 50%;
+            animation: rotate 1.5s infinite linear
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="grow">GROW</div>
+        <div class="circle">
+            <svg height="400" width="400">
+                <circle cx="200" cy="200" r="100" stroke-width="3" />
+                <text x="150" y="200" class="text">COLOR</text>
+            </svg>
+        </div>
+        <div class="spinner">
+        </div>
+    </div>
+</body>
+
+</html>
