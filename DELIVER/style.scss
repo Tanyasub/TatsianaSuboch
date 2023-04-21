@@ -297,7 +297,7 @@ header ul li {
     height: 854px;
     width: 1440px;
     background: url(Pictures/Frame.png) right no-repeat, #121212;
-    margin-top: 80px;
+    margin-top: 155px;
 
     h2 {
         padding-top: 274px;
@@ -318,7 +318,8 @@ header ul li {
 /*Block 5*/
 .block5 {
     display: flex;
-    margin-top: 300px;
+    margin-top: 144px;
+    height: 1040px;
 
     .left {
         position: relative;
@@ -391,4 +392,63 @@ header ul li {
         }
     }
 
+}
+
+/*Block 6*/
+.block6 {
+    height: 1141px;
+    background-color: #FAFAFA;
+
+    h3 {
+        text-align: center;
+        padding-top: 199px;
+    }
+
+    p {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .clients {
+        ul {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: auto;
+
+            span {
+                color: #FF5634;
+            }
+
+            li {
+                height: 268px;
+                width: 389px;
+                background: #FFFFFF;
+                border: 1px solid #EDEDED;
+                box-shadow: 0px 2px 12px rgba(16, 16, 16, 0.08);
+                border-radius: 24px;
+                gap: 10px;
+                margin-top: 27px;
+
+                h4 {
+                    margin-top: 55px;
+                    margin-left: 33px;
+
+                }
+
+                img {
+                    margin-left: 33px;
+                    margin-right: 10px;
+                    margin-top: 41px;
+                    float: left;
+                }
+                p {
+                    margin-left: 33px;
+                    margin-right: 41px;
+                    text-align: left;
+                    line-height: 30px;
+                }
+            }
+        }
+    }
 }
