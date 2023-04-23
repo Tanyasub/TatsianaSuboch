@@ -442,6 +442,7 @@ header ul li {
                     margin-top: 41px;
                     float: left;
                 }
+
                 p {
                     margin-left: 33px;
                     margin-right: 41px;
@@ -450,5 +451,107 @@ header ul li {
                 }
             }
         }
+    }
+
+    hr {
+        margin-top: 80px;
+        margin-left: 50px;
+        margin-right: 50px;
+        color: rgba(202, 202, 202, 1);
+    }
+}
+
+
+/*footer*/
+.block7 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FAFAFA;
+    width: 1440px;
+    height: 300px;
+    margin: auto;
+    position: relative;
+
+    h4 {
+        margin-bottom: 20px;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+    .r5 {
+        margin-bottom: 42px;
+    }
+
+    .r6 {
+        margin-bottom: 42px;
+    }
+
+    li {
+        line-height: 90px;
+    }
+
+    .left_footer {
+        li {
+            line-height: 50px;
+        }
+    }
+
+    .left_footer2 {
+        li {
+            line-height: 50px;
+        }
+
+        h4 {
+            visibility: hidden;
+        }
+    }
+
+    .right_footer2 {
+        h4 {
+            visibility: hidden;
+        }
+    }
+
+    .r1::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 146%;
+        background: url(Pictures/I1.png) no-repeat;
+        margin-left: -94px;
+    }
+
+    .r2::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 146%;
+        background: url(Pictures/I2.png) no-repeat;
+        margin-left: -94px;
+    }
+
+    .r3::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 146%;
+        background: url(Pictures/I3.png) no-repeat;
+        margin-left: -94px;
+    }
+
+    .r4::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 146%;
+        background: url(Pictures/I4.png) no-repeat;
+        margin-left: -94px;
+    }
+    hr {
+        display: inline;
+        margin-top: 80px;
+        margin-left: 50px;
+        margin-right: 50px;
+
     }
 }
