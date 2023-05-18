@@ -281,3 +281,96 @@ header ul li {
         }
     }
 }
+
+
+
+
+/*Slider*/
+.item>div {
+    height: 300px;
+
+}
+
+.owl-theme .owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -50px;
+}
+
+.owl-carousel .owl-nav button {
+    width: 50px;
+    height: 50px;
+
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    background-color: rgb(248, 248, 250);
+    margin-left: -57px;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    background-color: rgb(248, 248, 250);
+    margin-right: -57px;
+}
+
+#owl-demo .item {
+    margin: 3px;
+}
+
+#owl-demo .item img {
+    display: block;
+    width: 100px;
+    height: auto;
+}
+
+
+
+
+
+/*Positions*/
+.card {
+    width: 300px;
+}
+
+.positions {
+    h1 {
+        font-size: 55px;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .container {
+        ul {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: auto;
+            gap: 30px;
+            li{
+                h5{
+                    color:#FF5634
+                }
+            }
+        }
+    }
+}
+
+p {
+    animation-duration: 7s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+  }  
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 170%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
