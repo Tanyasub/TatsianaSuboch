@@ -572,3 +572,145 @@ hr {
         color: #FF5634
     }
 }
+
+
+
+//  MEDIA
+
+@media all and (max-width: 900px) {
+    body {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 200;
+        color: rgba(18, 18, 18, 1);
+        height: 10000px;
+    }
+    section {
+        width: 950px;
+        margin: auto;
+    }
+    
+
+    header {
+        background-color: #FFFFFF;
+        position: sticky;
+        top: 0;
+        z-index: 2;
+
+        .container1 {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            width: 100vh;
+            height: 56px;
+            margin: auto;
+            margin-top: 32px;
+            margin-bottom: 32px;
+
+        }
+    }
+
+    /*block1*/
+    .block1 {
+       
+        height: 912px;
+        margin-top: 0px;
+        background: none;
+        box-shadow: none;
+    }
+
+    .mobile {
+        background: none;
+      
+    }
+
+    .text {
+        width: 865px;
+
+
+        p {
+            color: rgba(255, 86, 52, 1);
+            font-size: 18px;
+            line-height: 20px;
+            letter-spacing: 1px;
+            text-align: center;
+            margin: auto;
+            padding-top: 156px;
+        }
+
+        h2 {
+            margin-left: 109px;
+        }
+
+        h5 {
+            margin-left: 109px;
+        }
+
+        .btn1 {
+            margin-left: 227px;
+        }
+
+        hr {
+            margin-left: 7%;
+            width: 570px;
+
+        }
+    }
+
+    .BIG {
+
+        ul {
+            display: flex;
+            width: 1222px;
+            height: 56px;
+            margin-top: 32px;
+            margin-bottom: 32px;
+            gap: 57px;
+            margin-left: 109px;
+
+            span {
+                color: #FF5634
+            }
+        }
+    }
+
+    .SMALL {
+
+        ul {
+            display: flex;
+            width: 1222px;
+            height: 56px;
+            margin-top: 32px;
+            margin-bottom: 32px;
+            margin-left: 109px;
+            top: 713px;
+            gap: 48px;
+        }
+    }
+
+
+    .block2 {
+        width: 1440px;
+        margin: auto;
+        margin-top: 100px;
+
+        h4 {
+            text-align: center;
+        }
+
+        hr {
+            margin: auto;
+        }
+    }
+
+    .rest_line {
+        ul {
+            width: 950px;
+            display: inline;
+            margin-top: 50px;
+
+            li {
+                text-align: center;
+            }
+        }
+    }
+}

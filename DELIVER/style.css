@@ -449,4 +449,108 @@ hr {
   .bottom span {
     color: #FF5634; }
 
+@media all and (max-width: 900px) {
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    color: #121212;
+    height: 10000px; }
+
+  section {
+    width: 950px;
+    margin: auto; }
+
+  header {
+    background-color: #FFFFFF;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 2; }
+    header .container1 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      width: 100vh;
+      height: 56px;
+      margin: auto;
+      margin-top: 32px;
+      margin-bottom: 32px; }
+
+  /*block1*/
+  .block1 {
+    height: 912px;
+    margin-top: 0px;
+    background: none;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+
+  .mobile {
+    background: none; }
+
+  .text {
+    width: 865px; }
+    .text p {
+      color: #ff5634;
+      font-size: 18px;
+      line-height: 20px;
+      letter-spacing: 1px;
+      text-align: center;
+      margin: auto;
+      padding-top: 156px; }
+    .text h2 {
+      margin-left: 109px; }
+    .text h5 {
+      margin-left: 109px; }
+    .text .btn1 {
+      margin-left: 227px; }
+    .text hr {
+      margin-left: 7%;
+      width: 570px; }
+
+  .BIG ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 1222px;
+    height: 56px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    gap: 57px;
+    margin-left: 109px; }
+    .BIG ul span {
+      color: #FF5634; }
+
+  .SMALL ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 1222px;
+    height: 56px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 109px;
+    top: 713px;
+    gap: 48px; }
+
+  .block2 {
+    width: 1440px;
+    margin: auto;
+    margin-top: 100px; }
+    .block2 h4 {
+      text-align: center; }
+    .block2 hr {
+      margin: auto; }
+
+  .rest_line ul {
+    width: 950px;
+    display: inline;
+    margin-top: 50px; }
+    .rest_line ul li {
+      text-align: center; } }
+
 /*# sourceMappingURL=style.css.map */
